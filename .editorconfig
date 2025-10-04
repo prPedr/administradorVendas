@@ -1,0 +1,28 @@
+# Define este arquivo como raiz
+root = true
+
+# Regra geral para todos os arquivos
+[*]
+indent_style = space              # Usa espaços em vez de tabs
+indent_size = 2                   # 2 espaços de indentação
+charset = utf-8                   # Codificação padrão
+trim_trailing_whitespace = true   # Remove espaços no fim da linha
+insert_final_newline = true       # Garante newline no final do arquivo
+end_of_line = lf                   # Usa LF (\n) para quebra de linha
+max_line_length = 100              # (Opcional) Sugere limite de 100 colunas
+
+# Para arquivos TypeScript/JavaScript
+[*.{ts,tsx,js,jsx}]
+quote_type = single                # (Opcional) Sugere usar aspas simples
+curly_bracket_next_line = false    # (Opcional) Mantém { na mesma linha
+spaces_around_operators = true     # (Opcional) Exige espaços em operadores
+insert_final_newline = true
+
+# Para arquivos JSON
+[*.json]
+indent_size = 2
+insert_final_newline = true
+
+# Para arquivos Markdown (preserva espaços no fim da linha para quebras)
+[*.md]
+trim_trailing_whitespace = false
