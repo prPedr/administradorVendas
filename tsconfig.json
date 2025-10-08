@@ -4,11 +4,11 @@
     "outDir": "build",
     "baseUrl": "./",
     "paths": {
-      "@config/*": ["src/config/*"],
-      "@modules/*": ["src/modules/*"],
       "@shared/*": ["src/shared/*"],
+      "@modules/*": ["src/modules/*"],
+      "@config/*": ["src/config/*"]
     },
-    "ignoreDeprecations": "5.0",
+    "ignoreDeprecations": "6.0",
     "module": "NodeNext",
     "moduleResolution": "NodeNext",
     "target": "esnext",
