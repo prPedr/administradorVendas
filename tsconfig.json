@@ -16,7 +16,7 @@
     "lib": ["es6"],
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
-    "strictPropertyInitialization": true,
+    "strictPropertyInitialization": false,
     "sourceMap": true,
     "declaration": true,
     "declarationMap": true,

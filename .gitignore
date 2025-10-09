@@ -2,3 +2,7 @@ node_modules/
 build/
 dist/
 anotacoes/
+temp/
+.env
+coverage/
+ormconfig.json
